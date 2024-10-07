@@ -1,11 +1,11 @@
 function scuberGreetingForFeet(distance) {
-  // Determine the cost based on distance traveled
+ 
   if (distance <= 400) {
-    return 'This one is on me!'; // Free for distances 400 feet or less
+    return 'This one is on me!'; 
   } else if (distance > 400 && distance <= 2000) {
     return 'That will be twenty bucks.'; // Charge for distances between 401 and 2000 feet
   } else if (distance > 2000 && distance <= 2500) {
-    return 'I will gladly take your twenty bucks.'; // Still $20 for 2001 to 2500 feet
+    return 'I will gladly take your thirty bucks.'; // Still $20 for 2001 to 2500 feet
   } else {
     return 'No can do.'; // Not allowed for distances over 2500 feet
   }
